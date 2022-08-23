@@ -563,7 +563,7 @@
 
 .texto-ley {
   width: 90%;
-  margin-top: 10px;
+  margin-top: 0px;
   margin-bottom: 30px;
   padding-right: 0px;
   color: #5a5a5a;
@@ -3079,6 +3079,7 @@
 }
 
 .precio-2 {
+  margin-bottom: 0px;
   color: #994e00;
   font-size: 30px;
   line-height: 1.2em;
