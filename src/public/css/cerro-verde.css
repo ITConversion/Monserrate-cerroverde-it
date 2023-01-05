@@ -1798,7 +1798,7 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: url('../images/render-cerroverde.jpg');
+  background-image: url('../images/render-cerroverde-1-1.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: repeat;
@@ -2389,10 +2389,10 @@
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
 }
 
 .titu-desa {
@@ -2436,7 +2436,8 @@
   display: flex;
   width: 130px;
   height: 130px;
-  margin-top: 20px;
+  margin-top: 0px;
+  margin-bottom: 10px;
   padding: 20px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -2679,13 +2680,11 @@
   align-self: center;
 }
 
-.bannernew {
+.bannernuevo {
   position: relative;
   z-index: 2;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: -ms-grid;
+  display: grid;
   width: 90%;
   max-width: 1320px;
   padding-top: 100px;
@@ -2695,14 +2694,21 @@
   -webkit-flex-direction: row-reverse;
   -ms-flex-direction: row-reverse;
   flex-direction: row-reverse;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  justify-items: stretch;
   -webkit-box-align: stretch;
   -webkit-align-items: stretch;
   -ms-flex-align: stretch;
   align-items: stretch;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
 }
 
 .text-span-11 {
@@ -3247,6 +3253,10 @@
   .secc-form {
     margin-top: 40px;
     margin-bottom: 0px;
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
     background-color: #fff;
   }
 
@@ -3354,7 +3364,9 @@
   }
 
   .caja-banner {
-    background-position: 50% 100%, 50% 100%;
+    background-image: url('../images/render-cerroverde-1.jpg');
+    background-position: 0px 0px;
+    background-size: auto;
   }
 
   .redes-header {
@@ -3439,8 +3451,12 @@
     height: 50px;
   }
 
-  .bannernew {
+  .bannernuevo {
     position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
     margin-bottom: 0px;
     padding-top: 0px;
     -webkit-box-orient: vertical;
@@ -3483,6 +3499,13 @@
 
   .cajacl {
     padding-top: 0px;
+  }
+
+  .div-block-27 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
   }
 }
 
@@ -4029,7 +4052,7 @@
     height: 40px;
   }
 
-  .bannernew {
+  .bannernuevo {
     margin-bottom: 0px;
     padding-bottom: 20px;
   }
@@ -4728,7 +4751,7 @@
     width: 200px;
   }
 
-  .bannernew {
+  .bannernuevo {
     padding-bottom: 0px;
   }
 
@@ -4789,9 +4812,16 @@
   }
 }
 
+#w-node-_48c6d2cc-fe1e-6274-8033-257253642a40-fcb89c53 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
 #w-node-a53f7d8c-8df8-1081-d71c-6248dc082b4e-fcb89c53 {
-  -ms-grid-column-align: start;
-  justify-self: start;
+  -ms-grid-column-align: end;
+  justify-self: end;
 }
 
 #w-node-a1238446-374c-58d6-3a9a-198107a76fb8-fcb89c53 {
