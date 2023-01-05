@@ -2620,6 +2620,10 @@
   padding-bottom: 0px;
 }
 
+.image-17.imgmov {
+  display: none;
+}
+
 .slide {
   width: 100%;
 }
@@ -2933,6 +2937,10 @@
   max-width: 759px;
   -o-object-fit: contain;
   object-fit: contain;
+}
+
+.image-20.imgmov {
+  display: none;
 }
 
 .texto-ley-2 {
@@ -3456,6 +3464,14 @@
     height: 50px;
   }
 
+  .image-17 {
+    display: none;
+  }
+
+  .image-17.imgmov {
+    display: block;
+  }
+
   .bannernuevo {
     position: relative;
     display: -webkit-box;
@@ -3494,6 +3510,14 @@
 
   .tituloblanco-2 {
     font-size: 26px;
+  }
+
+  .image-20 {
+    display: none;
+  }
+
+  .image-20.imgmov {
+    display: block;
   }
 
   .contenedorp {
@@ -3975,6 +3999,10 @@
     margin-top: 0px;
     padding-top: 60px;
     padding-bottom: 60px;
+    background-image: url('../images/render-cerroverde-5681.jpg');
+    background-position: 0% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .div-block-19 {
@@ -4126,6 +4154,10 @@
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+  }
+
+  .tit-bann-3 {
+    text-shadow: 1px 1px 6px #000, 1px 1px 6px #000;
   }
 }
 
@@ -4597,6 +4629,8 @@
     padding-top: 20px;
     padding-right: 20px;
     padding-left: 20px;
+    background-image: url('../images/render-cerroverde-320.jpg');
+    background-position: 0% 100%;
   }
 
   .div-block-19 {
@@ -4781,6 +4815,11 @@
     font-size: 18px;
   }
 
+  .image-20.imgmov {
+    -o-object-fit: contain;
+    object-fit: contain;
+  }
+
   .precio-2 {
     font-size: 19px;
   }
@@ -4795,6 +4834,13 @@
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
   }
 
   .tit-bann {
@@ -4838,6 +4884,13 @@
   align-self: center;
 }
 
+#w-node-e73660fa-a6ee-9329-435c-54719dec25e0-fcb89c53 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
 #w-node-_09a4b803-51df-3303-1700-b7871fae744f-fcb89c53 {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
@@ -4871,6 +4924,15 @@
   }
 
   #w-node-a1238446-374c-58d6-3a9a-198107a76fd2-fcb89c53 {
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    -ms-grid-column-align: center;
+    justify-self: center;
+  }
+
+  #w-node-e73660fa-a6ee-9329-435c-54719dec25e0-fcb89c53 {
     -webkit-align-self: center;
     -ms-flex-item-align: center;
     -ms-grid-row-align: center;
