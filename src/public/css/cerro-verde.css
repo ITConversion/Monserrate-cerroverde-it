@@ -1973,6 +1973,7 @@
 
 .ico360 {
   width: 60px;
+  height: 60px;
 }
 
 .hojai {
@@ -2928,6 +2929,8 @@
 .image-20 {
   width: 100%;
   max-width: 759px;
+  -o-object-fit: contain;
+  object-fit: contain;
 }
 
 .texto-ley-2 {
@@ -3970,10 +3973,6 @@
     margin-top: 0px;
     padding-top: 60px;
     padding-bottom: 60px;
-    background-image: url('../images/render-cerroverde.jpg');
-    background-position: 50% 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
   }
 
   .div-block-19 {
@@ -4596,9 +4595,6 @@
     padding-top: 20px;
     padding-right: 20px;
     padding-left: 20px;
-    background-image: url('../images/render-cerroverde.jpg');
-    background-position: 50% 50%;
-    background-size: cover;
   }
 
   .div-block-19 {
