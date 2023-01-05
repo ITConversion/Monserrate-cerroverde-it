@@ -2859,6 +2859,9 @@
   padding-top: 40px;
   padding-bottom: 40px;
   background-color: #34a853;
+  background-image: url('../images/bg-terminos.jpeg');
+  background-position: 50% 50%;
+  background-size: cover;
 }
 
 .term {
