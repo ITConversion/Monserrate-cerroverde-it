@@ -350,6 +350,7 @@
   border-radius: 7px;
   margin-top: 20px;
   margin-bottom: 20px;
+  margin-left: 0;
   padding: 15px 20px;
   font-size: 18px;
   font-weight: 700;
@@ -395,6 +396,10 @@
 .btn.v:hover {
   color: #009cb3;
   background-color: #fff;
+}
+
+.btn._2 {
+  margin-left: 5px;
 }
 
 .tituloazul {
@@ -664,7 +669,7 @@
 }
 
 .formulario {
-  color: #656565;
+  color: #000;
   background-color: #ebeded;
   border: 1px solid #ebeded;
   border-radius: 10px;
@@ -1620,7 +1625,9 @@
   border: 1px solid #008740;
   border-radius: 7px;
   flex: 0 auto;
+  margin-bottom: 10px;
   padding: 10px 20px;
+  font-family: Montserrat, sans-serif;
   font-weight: 700;
   text-decoration: none;
   transition: background-color .6s cubic-bezier(.55, .055, .675, .19);
@@ -2730,6 +2737,10 @@
   font-size: 14px;
 }
 
+.italic-text {
+  font-family: Montserrat, sans-serif;
+}
+
 @media screen and (max-width: 991px) {
   .menu {
     text-align: center;
@@ -3653,12 +3664,16 @@
 
   .btn {
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
   }
 
   .btn.v {
     padding-left: 28px;
     padding-right: 28px;
+  }
+
+  .btn._2 {
+    margin-top: 5px;
   }
 
   .tituloazul {
@@ -4178,6 +4193,10 @@
     width: 80%;
   }
 
+  .cajacl {
+    padding-bottom: 5px;
+  }
+
   .precio-2 {
     font-size: 19px;
   }
@@ -4328,6 +4347,12 @@
     justify-content: flex-end;
     display: flex;
     position: static;
+  }
+
+  .div-block-49 {
+    justify-content: center;
+    align-items: center;
+    display: block;
   }
 }
 
