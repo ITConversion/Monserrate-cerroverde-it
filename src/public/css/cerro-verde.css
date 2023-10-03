@@ -602,7 +602,7 @@
   margin-bottom: 0;
   font-family: Roboto Slab, sans-serif;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .text-span {
@@ -690,7 +690,7 @@
 
 .link-2 {
   color: #008740;
-  border: 1px solid #008740;
+  border: 0 solid #008740;
   font-weight: 700;
 }
 
@@ -1898,8 +1898,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 145px 0 0 -55px;
-  padding: 12px 15px;
+  margin: 140px 0 0 -55px;
+  padding: 16px 12px;
   display: flex;
 }
 
@@ -1926,8 +1926,8 @@
   margin-bottom: 0;
   padding-top: 0;
   font-family: Roboto Slab, sans-serif;
-  font-size: 18px;
-  font-weight: 300;
+  font-size: 17px;
+  font-weight: 400;
   line-height: 1.2em;
 }
 
@@ -2571,13 +2571,25 @@
 .text-span-21 {
   letter-spacing: 0;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
-.text-span-22, .text-span-23, .text-span-24 {
+.text-span-22 {
+  font-family: Roboto Slab, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.text-span-23 {
   font-family: Roboto Slab, sans-serif;
   font-size: 15px;
   font-weight: 500;
+}
+
+.text-span-24 {
+  font-family: Roboto Slab, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
 }
 
 .div-block-35 {
