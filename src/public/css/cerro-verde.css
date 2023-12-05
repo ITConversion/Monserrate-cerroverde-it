@@ -32,7 +32,7 @@
 
 .w-checkbox-input--inputType-custom.w--redirected-checked {
   background-color: #3898ec;
-  background-image: url('https://d3e54v103j8qbb.cloudfront.net/static/custom-checkbox-checkmark.589d534424.svg');
+  background-image: url("https://d3e54v103j8qbb.cloudfront.net/static/custom-checkbox-checkmark.589d534424.svg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -55,18 +55,18 @@
 
 .menu:hover {
   color: #fff;
-  background-color: rgba(22, 52, 95, .25);
+  background-color: rgba(22, 52, 95, 0.25);
   border-radius: 15px;
 }
 
 .menu.w--current {
   color: #fff;
   cursor: pointer;
-  background-color: rgba(22, 52, 95, .25);
+  background-color: rgba(22, 52, 95, 0.25);
 }
 
 .menu.cita {
-  background-color: rgba(151, 190, 29, .4);
+  background-color: rgba(151, 190, 29, 0.4);
   border-radius: 15px;
   padding-top: 16px;
   padding-bottom: 16px;
@@ -108,7 +108,7 @@
   grid-column-gap: 20px;
   grid-row-gap: 20px;
   grid-template-rows: auto;
-  grid-template-columns: 1.25fr .75fr;
+  grid-template-columns: 1.25fr 0.75fr;
   grid-auto-columns: 1fr;
   align-content: center;
   justify-content: end;
@@ -143,7 +143,7 @@
 .zonassociales {
   text-align: right;
   background-color: rgba(0, 0, 0, 0);
-  background-image: url('../images/Grupo-1366.png');
+  background-image: url("../images/Grupo-1366.png");
   background-position: 0 0;
   background-size: auto;
   flex-direction: column;
@@ -169,7 +169,7 @@
 
 .recorrido {
   text-align: center;
-  background-image: url('../images/recorrido-360-orion.png');
+  background-image: url("../images/recorrido-360-orion.png");
   background-position: 50%;
   background-size: cover;
   flex-direction: column;
@@ -235,7 +235,7 @@
   grid-row-gap: 16px;
   flex-direction: row;
   grid-template-rows: auto;
-  grid-template-columns: .75fr 1fr;
+  grid-template-columns: 0.75fr 1fr;
   grid-auto-columns: 1fr;
   align-content: start;
   justify-content: space-around;
@@ -355,7 +355,7 @@
   font-size: 18px;
   font-weight: 700;
   text-decoration: none;
-  transition: background-color .1s cubic-bezier(.55, .055, .675, .19);
+  transition: background-color 0.1s cubic-bezier(0.55, 0.055, 0.675, 0.19);
   display: inline-block;
 }
 
@@ -436,7 +436,7 @@
 
 .texto-ley.ot {
   width: 80%;
-  color: rgba(90, 90, 90, .8);
+  color: rgba(90, 90, 90, 0.8);
   text-align: center;
   margin-bottom: 10px;
   padding-left: 10px;
@@ -598,7 +598,7 @@
 
 .paragraph {
   color: #5e5e5e;
-  letter-spacing: -.4px;
+  letter-spacing: -0.4px;
   margin-bottom: 0;
   font-family: Roboto Slab, sans-serif;
   font-size: 15px;
@@ -669,6 +669,7 @@
 }
 
 .formulario {
+  opacity: 1;
   color: #000;
   background-color: #ebeded;
   border: 1px solid #ebeded;
@@ -678,6 +679,7 @@
   font-family: Roboto Slab, sans-serif;
   font-size: 14px;
   font-weight: 400;
+  line-height: 1.2em;
 }
 
 .formulario::-ms-input-placeholder {
@@ -746,8 +748,8 @@
   width: 99%;
   background-color: rgba(255, 255, 255, 0);
   border-radius: 15px;
-  margin-left: .9%;
-  margin-right: .9%;
+  margin-left: 0.9%;
+  margin-right: 0.9%;
   padding-left: 0;
   padding-right: 0;
   position: relative;
@@ -782,11 +784,11 @@
   width: 32.5%;
   height: 300px;
   text-align: right;
-  background-image: url('../images/juegos-infantiles-selva.jpg');
+  background-image: url("../images/juegos-infantiles-selva.jpg");
   background-position: 50%;
   background-size: cover;
-  margin-left: .4%;
-  margin-right: .4%;
+  margin-left: 0.4%;
+  margin-right: 0.4%;
   padding-bottom: 0;
   padding-left: 0%;
   padding-right: 0%;
@@ -794,16 +796,16 @@
 
 .sliderrender.seg {
   width: 32.5%;
-  background-image: url('../images/piscina.jpg');
+  background-image: url("../images/piscina.jpg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-left: .4%;
-  margin-right: .4%;
+  margin-left: 0.4%;
+  margin-right: 0.4%;
 }
 
 .sliderrender.ter {
-  background-image: url('../images/bosque-selva-apartamentos.jpg');
+  background-image: url("../images/bosque-selva-apartamentos.jpg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -984,7 +986,7 @@
   grid-column-gap: 16px;
   grid-row-gap: 16px;
   grid-template-rows: auto auto;
-  grid-template-columns: 1.25fr .75fr .75fr .75fr;
+  grid-template-columns: 1.25fr 0.75fr 0.75fr 0.75fr;
   grid-auto-columns: 1fr;
   grid-auto-flow: row;
   padding-left: 10px;
@@ -1078,7 +1080,7 @@
   padding: 10px 0;
   font-size: 25px;
   font-weight: 700;
-  line-height: .7em;
+  line-height: 0.7em;
   text-decoration: none;
   position: relative;
   top: auto;
@@ -1175,7 +1177,8 @@
   right: -20px;
 }
 
-.slide-nav, .slide-nav-2 {
+.slide-nav,
+.slide-nav-2 {
   display: none;
 }
 
@@ -1225,7 +1228,8 @@
   margin-left: 10px;
   margin-right: 10px;
   padding: 10px;
-  font-family: Impact, Haettenschweiler, Franklin Gothic Bold, Charcoal, sans-serif;
+  font-family: Impact, Haettenschweiler, Franklin Gothic Bold, Charcoal,
+    sans-serif;
   font-size: 12px;
   line-height: 20px;
   display: flex;
@@ -1286,7 +1290,9 @@
   display: flex;
 }
 
-.text-span-4, .text-span-5, .text-span-6 {
+.text-span-4,
+.text-span-5,
+.text-span-6 {
   font-weight: 700;
 }
 
@@ -1395,7 +1401,7 @@
 .caja-banner {
   width: 100%;
   min-height: 70vh;
-  background-image: url('../images/Enmascarar-grupo-13.webp');
+  background-image: url("../images/Enmascarar-grupo-13.webp");
   background-position: 50%;
   background-repeat: repeat;
   background-size: cover;
@@ -1530,7 +1536,7 @@
 }
 
 .render {
-  background-color: rgba(255, 255, 255, .45);
+  background-color: rgba(255, 255, 255, 0.45);
   margin-bottom: 0;
   padding: 5px 10px;
   font-size: 11px;
@@ -1579,7 +1585,7 @@
   z-index: 2147483647;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(0, 0, 0, .77);
+  background-color: rgba(0, 0, 0, 0.77);
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -1630,7 +1636,7 @@
   font-family: Montserrat, sans-serif;
   font-weight: 700;
   text-decoration: none;
-  transition: background-color .6s cubic-bezier(.55, .055, .675, .19);
+  transition: background-color 0.6s cubic-bezier(0.55, 0.055, 0.675, 0.19);
   display: block;
 }
 
@@ -1998,7 +2004,7 @@
   bottom: 6%;
   left: 0%;
   right: auto;
-  box-shadow: 2px 3px 4px 1px rgba(0, 0, 0, .45);
+  box-shadow: 2px 3px 4px 1px rgba(0, 0, 0, 0.45);
 }
 
 .image-16 {
@@ -2025,7 +2031,8 @@
   display: none;
 }
 
-.slide, .mask-4 {
+.slide,
+.mask-4 {
   width: 100%;
 }
 
@@ -2049,7 +2056,7 @@
 .icon-8 {
   width: 50px;
   height: 50px;
-  background-color: rgba(255, 255, 255, .36);
+  background-color: rgba(255, 255, 255, 0.36);
   border-radius: 50%;
   padding: 5px;
   font-size: 40px;
@@ -2058,7 +2065,7 @@
 .icon-9 {
   width: 50px;
   height: 50px;
-  background-color: rgba(255, 255, 255, .4);
+  background-color: rgba(255, 255, 255, 0.4);
   border-radius: 50%;
   padding: 5px;
   font-size: 40px;
@@ -2091,7 +2098,8 @@
   position: relative;
 }
 
-.text-span-11, .text-span-12 {
+.text-span-11,
+.text-span-12 {
   color: #006838;
   font-weight: 700;
 }
@@ -2101,7 +2109,7 @@
 }
 
 .linea {
-  border: 1px solid rgba(255, 255, 255, .4);
+  border: 1px solid rgba(255, 255, 255, 0.4);
   margin-top: 20px;
   margin-bottom: 10px;
   padding-top: 0;
@@ -2128,7 +2136,7 @@
 .text-block-10 {
   width: 120px;
   color: #292929;
-  background-color: rgba(255, 255, 255, .4);
+  background-color: rgba(255, 255, 255, 0.4);
   padding: 4px 6px;
   font-size: 10px;
   font-weight: 700;
@@ -2181,7 +2189,7 @@
 
 .div-block-25 {
   text-align: center;
-  background-image: url('../images/360_1.webp');
+  background-image: url("../images/360_1.webp");
   background-position: 50%;
   background-size: auto;
   flex-direction: column;
@@ -2194,7 +2202,7 @@
 
 .descubre {
   background-color: #34a853;
-  background-image: url('../images/bg-terminos.jpeg');
+  background-image: url("../images/bg-terminos.jpeg");
   background-position: 50%;
   background-size: cover;
   padding-top: 40px;
@@ -2203,7 +2211,7 @@
 
 .term {
   background-color: #34a853;
-  background-image: url('../images/bg-terminos.jpeg');
+  background-image: url("../images/bg-terminos.jpeg");
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2288,7 +2296,7 @@
   font-size: 18px;
   font-weight: 700;
   text-decoration: none;
-  transition: background-color .1s cubic-bezier(.55, .055, .675, .19);
+  transition: background-color 0.1s cubic-bezier(0.55, 0.055, 0.675, 0.19);
   display: inline-block;
 }
 
@@ -2352,7 +2360,7 @@
   padding: 10px 20px;
   font-weight: 700;
   text-decoration: none;
-  transition: background-color .6s cubic-bezier(.55, .055, .675, .19);
+  transition: background-color 0.6s cubic-bezier(0.55, 0.055, 0.675, 0.19);
   display: block;
 }
 
@@ -2504,7 +2512,11 @@
   font-weight: 400;
 }
 
-.text-span-14, .text-span-15, .text-span-16, .text-span-17, .text-span-18 {
+.text-span-14,
+.text-span-15,
+.text-span-16,
+.text-span-17,
+.text-span-18 {
   color: #8bc53f;
 }
 
@@ -2514,7 +2526,8 @@
   font-size: 32px;
 }
 
-.text-span-19, .text-span-20 {
+.text-span-19,
+.text-span-20 {
   color: #ff9501;
 }
 
@@ -2564,8 +2577,9 @@
 .grid {
   grid-row-gap: 0px;
   border-right: 0 solid #000;
-  grid-template: "."
-  / 1.75fr .75fr .75fr .75fr;
+  grid-template:
+    "."
+    / 1.75fr 0.75fr 0.75fr 0.75fr;
 }
 
 .text-span-21 {
@@ -2753,6 +2767,18 @@
   font-family: Montserrat, sans-serif;
 }
 
+.select-field {
+  height: 45px;
+  opacity: 1;
+  color: #000;
+  background-color: #ebeded;
+  border: 1px solid #ebeded;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: Roboto Slab, sans-serif;
+}
+
 @media screen and (max-width: 991px) {
   .menu {
     text-align: center;
@@ -2768,8 +2794,9 @@
   }
 
   .banner {
-    grid-template: "."
-    / 1.5fr 1.5fr;
+    grid-template:
+      "."
+      / 1.5fr 1.5fr;
     grid-auto-flow: row;
     justify-items: start;
     padding-left: 40px;
@@ -2922,7 +2949,8 @@
     font-size: 13px;
   }
 
-  .right-arrow-2, .left-arrow-2 {
+  .right-arrow-2,
+  .left-arrow-2 {
     display: block;
   }
 
@@ -2940,7 +2968,7 @@
   }
 
   .caja-banner {
-    background-image: url('../images/render-cerroverde-1.jpg');
+    background-image: url("../images/render-cerroverde-1.jpg");
     background-position: 0 0;
     background-size: auto;
   }
@@ -3084,7 +3112,8 @@
   }
 
   .porqueinvertir {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+      linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
     padding-top: 20px;
     padding-bottom: 40px;
   }
@@ -3222,7 +3251,9 @@
     font-size: 10px;
   }
 
-  .text-span, .text-block-5, .submit-button {
+  .text-span,
+  .text-block-5,
+  .submit-button {
     font-size: 16px;
   }
 
@@ -3276,7 +3307,8 @@
     padding-right: 0;
   }
 
-  .menuplanos, .menuplanos.w--current {
+  .menuplanos,
+  .menuplanos.w--current {
     margin-left: 5px;
     margin-right: 5px;
   }
@@ -3423,7 +3455,7 @@
   }
 
   .caja-banner {
-    background-image: url('../images/render-cerroverde-5681.jpg');
+    background-image: url("../images/render-cerroverde-5681.jpg");
     background-position: 0 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -3459,7 +3491,8 @@
     top: 59%;
   }
 
-  .hojai, .hojad {
+  .hojai,
+  .hojad {
     z-index: 0;
   }
 
@@ -3527,7 +3560,8 @@
     line-height: 1em;
   }
 
-  .menuplanos-2, .menuplanos-2.w--current {
+  .menuplanos-2,
+  .menuplanos-2.w--current {
     margin-left: 5px;
     margin-right: 5px;
   }
@@ -3581,7 +3615,7 @@
 
   .banner {
     background-color: #af0000;
-    background-image: url('../images/bg-movil.jpg');
+    background-image: url("../images/bg-movil.jpg");
     background-position: 50% 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -3593,7 +3627,8 @@
 
   .porqueinvertir {
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+      linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
     padding-top: 30px;
     padding-bottom: 40px;
     padding-right: 0;
@@ -3732,7 +3767,8 @@
     display: block;
   }
 
-  .div-block-6, .div-block-7 {
+  .div-block-6,
+  .div-block-7 {
     margin-bottom: 10px;
     padding-bottom: 25px;
   }
@@ -3786,7 +3822,8 @@
     font-size: 13px;
   }
 
-  .text-span, .text-block-5 {
+  .text-span,
+  .text-block-5 {
     font-size: 18px;
   }
 
@@ -3807,7 +3844,7 @@
   }
 
   .textoinvierte {
-    letter-spacing: -.2px;
+    letter-spacing: -0.2px;
     margin-top: 10px;
     font-size: 18px;
     font-weight: 300;
@@ -3832,7 +3869,8 @@
     font-size: 10px;
   }
 
-  .sliderrender, .slider-2 {
+  .sliderrender,
+  .slider-2 {
     height: 250px;
   }
 
@@ -3864,7 +3902,7 @@
   }
 
   .textfooter {
-    letter-spacing: -.2px;
+    letter-spacing: -0.2px;
     font-size: 18px;
     line-height: 1.2em;
   }
@@ -3907,7 +3945,8 @@
     max-width: 100%;
   }
 
-  .icon-3, .icon-4 {
+  .icon-3,
+  .icon-4 {
     margin-top: 120px;
   }
 
@@ -4007,7 +4046,7 @@
   }
 
   .caja-banner {
-    background-image: url('../images/Enmascarar-grupo-13.webp');
+    background-image: url("../images/Enmascarar-grupo-13.webp");
     background-position: 35% 0;
     background-size: contain;
     margin-top: 0;
@@ -4284,7 +4323,8 @@
     margin-top: 15px;
   }
 
-  .div-block-38, .div-block-39 {
+  .div-block-38,
+  .div-block-39 {
     width: auto;
     border-left-width: 0;
     margin-top: 15px;
@@ -4377,7 +4417,8 @@
   justify-self: start;
 }
 
-#w-node-a1238446-374c-58d6-3a9a-198107a76fd2-fcb89c53, #w-node-e73660fa-a6ee-9329-435c-54719dec25e0-fcb89c53 {
+#w-node-a1238446-374c-58d6-3a9a-198107a76fd2-fcb89c53,
+#w-node-e73660fa-a6ee-9329-435c-54719dec25e0-fcb89c53 {
   align-self: center;
 }
 
@@ -4392,23 +4433,30 @@
     align-self: start;
   }
 
-  #w-node-a1238446-374c-58d6-3a9a-198107a76fd2-fcb89c53, #w-node-e73660fa-a6ee-9329-435c-54719dec25e0-fcb89c53 {
+  #w-node-a1238446-374c-58d6-3a9a-198107a76fd2-fcb89c53,
+  #w-node-e73660fa-a6ee-9329-435c-54719dec25e0-fcb89c53 {
     align-self: center;
     justify-self: center;
   }
 }
 
-
 @font-face {
-  font-family: 'Gotham';
-  src: url('../fonts/Gotham-Black.woff2') format('woff2'), url('../fonts/Gotham-Black.eot') format('embedded-opentype'), url('../fonts/Gotham-Black.woff') format('woff'), url('../fonts/Gotham-Black.ttf') format('truetype'), url('../fonts/Gotham-Black.svg') format('svg');
+  font-family: "Gotham";
+  src: url("../fonts/Gotham-Black.woff2") format("woff2"),
+    url("../fonts/Gotham-Black.eot") format("embedded-opentype"),
+    url("../fonts/Gotham-Black.woff") format("woff"),
+    url("../fonts/Gotham-Black.ttf") format("truetype"),
+    url("../fonts/Gotham-Black.svg") format("svg");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: 'Gothambook';
-  src: url('../fonts/GothamBook.eot') format('embedded-opentype'), url('../fonts/GothamBook.woff') format('woff'), url('../fonts/GothamBook.ttf') format('truetype'), url('../fonts/GothamBook.svg') format('svg');
+  font-family: "Gothambook";
+  src: url("../fonts/GothamBook.eot") format("embedded-opentype"),
+    url("../fonts/GothamBook.woff") format("woff"),
+    url("../fonts/GothamBook.ttf") format("truetype"),
+    url("../fonts/GothamBook.svg") format("svg");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
